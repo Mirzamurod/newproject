@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Brush Script MT';
+  src: url("../font/brush-script-mt/brush_script_mt_kursiv.ttf") format("truetype"); }
+@font-face {
+  font-family: 'BRUSHSCI';
+  src: url("../font/brush-script-mt/BRUSHSCI.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Oswald';
+  src: url("../font/Oswald1/Oswald-VariableFont_wght.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Oswald-Regular';
+  src: url("../font/Oswald1/static/Oswald-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'FireSans-Regular';
+  src: url("../font/Fira_Sans/FiraSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'FireSans-SemiBold';
+  src: url("../font/Fira_Sans/FiraSans-SemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'FireSans-Bold';
+  src: url("../font/Fira_Sans/FiraSans-Bold.ttf") format("truetype"); }
+.font-family-brush-script-mt {
+  font-family: 'Brush Script MT', 'BRUSHSCI', sans-serif !important; }
+
+.font-family-oswald {
+  font-family: 'Oswald Regular', 'Oswald-Regular', sans-serif !important; }
+
+.font-family-firesans-regular {
+  font-family: 'FireSans-Regular', sans-serif !important; }
+
+.font-family-firesans-semi-bold {
+  font-family: 'FireSans-SemiBold', sans-serif !important; }
+
+.font-family-firesans-black {
+  font-family: 'FireSans-Bold', 'FireSans-Regular', sans-serif !important; }
+
+.icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  mask-position: top center;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: top center;
+  background-color: #cecece; }
+
+.icon-facebook {
+  mask-image: url("../image/icon/facebook.svg");
+  -webkit-mask-image: url("../image/icon/facebook.svg"); }
+
+.icon-insta {
+  mask-image: url("../image/icon/instagram.svg");
+  -webkit-mask-image: url("../image/icon/instagram.svg"); }
+
+.icon-twitter {
+  mask-image: url("../image/icon/twitter.svg");
+  -webkit-mask-image: url("../image/icon/twitter.svg"); }
+
+.icon-youtube {
+  mask-image: url("../image/icon/youtube.svg");
+  -webkit-mask-image: url("../image/icon/youtube.svg"); }
+
+.icon-black {
+  background-color: #000; }
+
+* {
+  box-sizing: border-box; }
+  * body {
+    background-image: url("../image/Design Site-Zarilover fon.png");
+    background-position: top center; }
+    * body .btn {
+      border-radius: 0; }
+    * body .container-fluid:nth-child(1) {
+      background-image: url("../image/notebook-1280538_1920.jpg");
+      background-size: 100%;
+      background-position: top center;
+      background-repeat: no-repeat;
+      z-index: 0; }
+      * body .container-fluid:nth-child(1) .container:nth-child(1) .row .col-md-12 .sm-icon {
+        top: 12px !important;
+        right: 0 !important; }
+      * body .container-fluid:nth-child(1) .container {
+        z-index: 2; }
+        * body .container-fluid:nth-child(1) .container#shadow #row1 {
+          background-image: linear-gradient(transparent 8%, #2b2a30 52%); }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 .col-md-4 p {
+            font-size: 14px !important; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 .col-md-6 {
+            margin-top: 136px !important; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 .yarm-aylana {
+            width: 100px;
+            height: 100px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            background-color: #c1c1c1;
+            bottom: -50px;
+            left: 45.5%; }
+        * body .container-fluid:nth-child(1) .container#shadow #row2 {
+          background-color: #c1c1c1; }
+          * body .container-fluid:nth-child(1) .container#shadow #row2 .col-md-12:nth-child(2) a {
+            border: 2px solid gray;
+            border-radius: 10px;
+            width: 155px; }
+          * body .container-fluid:nth-child(1) .container#shadow #row2 .yarm-aylana1 {
+            width: 100px;
+            height: 100px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            background-image: url("../image/DesignSite-Zariloverfon3.png");
+            bottom: -50px;
+            left: 45.6%; }
+    * body .container-fluid:nth-child(2) {
+      background-image: url("../image/DesignSite-Zariloverfon3.png");
+      padding: 0 85px !important; }
+      * body .container-fluid:nth-child(2) .container #row3 .col-md-6 input, * body .container-fluid:nth-child(2) .container #row3 .col-md-6 textarea {
+        opacity: .5; }
+        * body .container-fluid:nth-child(2) .container #row3 .col-md-6 input:focus, * body .container-fluid:nth-child(2) .container #row3 .col-md-6 textarea:focus {
+          opacity: 1;
+          color: #000; }
+    @media (max-width: 767px) {
+      * body .container-fluid:nth-child(1) .container:nth-child(1) .row .col-md-12 nav {
+        top: 5px; }
+      * body .container-fluid:nth-child(1) .container:nth-child(1) .row .col-md-12 .sm-icon {
+        top: 10px !important;
+        right: 0 !important; }
+      * body .container-fluid:nth-child(1) .container#shadow #row1 {
+        background-image: none;
+        background-color: #2b2a30;
+        color: rgba(255, 255, 255, 0.5) !important; }
+        * body .container-fluid:nth-child(1) .container#shadow #row1 .col-md-4 h1 {
+          font-size: 50px; }
+        * body .container-fluid:nth-child(1) .container#shadow #row1 .col-md-4 h4 {
+          font-size: 15px; }
+        * body .container-fluid:nth-child(1) .container#shadow #row1 .col-md-4 h1, * body .container-fluid:nth-child(1) .container#shadow #row1 .col-md-4 h4, * body .container-fluid:nth-child(1) .container#shadow #row1 .col-md-4 p {
+          color: #959598 !important; }
+        * body .container-fluid:nth-child(1) .container#shadow #row1 #creativ {
+          margin-top: 30px !important; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 #creativ h3 {
+            width: 100% !important;
+            text-align: center !important; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 #creativ p {
+            text-align: center; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 #creativ button {
+            margin: 7px auto !important; }
+        * body .container-fluid:nth-child(1) .container#shadow #row1 #our-team {
+          margin-top: 30px !important; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 #our-team h3 {
+            font-size: 35px;
+            text-align: center !important; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 #our-team .row h5 {
+            font-size: 17px;
+            text-align: left; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 #our-team .row h6 {
+            font-size: 12px;
+            text-align: left; }
+          * body .container-fluid:nth-child(1) .container#shadow #row1 #our-team .row p {
+            font-size: 10px;
+            text-align: left; }
+        * body .container-fluid:nth-child(1) .container#shadow #row1 .yarm-aylana {
+          width: 0;
+          height: 0;
+          border: none;
+          background-color: transparent; }
+      * body .container-fluid:nth-child(1) .container#shadow #row2 .col-md-12 .btn {
+        width: 144px !important;
+        font-size: 15px !important; }
+      * body .container-fluid:nth-child(2) .container .row .col-md-12 button {
+        width: 100%; }
+      * body .container-fluid:nth-child(2) .container .row .col-md-12 p {
+        font-size: 8px; } }
+
+/*# sourceMappingURL=style.css.map */
